@@ -30,51 +30,51 @@ An AI-powered essay writing assistant that generates, critiques, and revises ess
 ```bash
 git clone https://github.com/yourusername/essay-writer-agent.git
 cd essay-writer-agent
-Set up a virtual environment (optional but recommended)
+```
 
-bash
-Copy
-Edit
+2. **Set up a virtual environment (optional but recommended)**
+
+```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
-Install dependencies
+```
 
-bash
-Copy
-Edit
+3. **Install dependencies**
+
+```bash
 pip install -r requirements.txt
-Set up your environment variables
+```
+
+4. **Set up your environment variables**
 
 Create a .env file in the root directory and add your Tavily API key:
 
-env
-Copy
-Edit
+```bash
 TAVILY_API_KEY=your_api_key_here
-Usage
+```
+
+## Usage
 Run the Essay Agent
-bash
-Copy
-Edit
+```bash
 python essay_writer.py
+```
 This will generate an essay on a default task ("what is the difference between langchain and langsmith") and iterate through a critique/revision loop.
 
 Optional GUI (if using helper.py)
 To launch the GUI (requires helper.py with ewriter() and writer_gui()):
 
-bash
-Copy
-Edit
+```bash
 python essay_writer.py
+```
 If the required GUI modules are not found, it will fallback to CLI-only mode.
 
 Example Output
-bash
-Copy
-Edit
+```bash
 {'plan': '...', 'content': ['...']}
 {'draft': '...', 'revision_number': 2}
 {'critique': '...'}
 ...
-Contributing
+```
+
+## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss your idea.
