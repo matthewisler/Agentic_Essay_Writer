@@ -28,7 +28,7 @@ An AI-powered essay writing assistant that generates, critiques, and revises ess
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/essay-writer-agent.git
+git clone https://github.com/matthewisler/Agentic_Essay_Writer.git
 cd essay-writer-agent
 ```
 
